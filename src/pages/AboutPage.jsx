@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import ScrollAnimation from '../components/common/ScrollAnimation';
+import { assetPath } from '../services/assetPath';
 import styles from './AboutPage.module.css';
 
 export default function AboutPage() {
@@ -13,8 +14,8 @@ export default function AboutPage() {
 
       <ScrollAnimation animation="slideUp" delay={100}>
         <div className={styles.minePhotos}>
-          <img src="/images/products/mia1.jpeg" alt="En las minas de esmeraldas" className={styles.minePhoto} />
-          <img src="/images/products/mia2.jpeg" alt="Extracción de esmeraldas" className={styles.minePhoto} />
+          <img src={assetPath('/images/products/mia1.jpeg')} alt="En las minas de esmeraldas" className={styles.minePhoto} />
+          <img src={assetPath('/images/products/mia2.jpeg')} alt="Extracción de esmeraldas" className={styles.minePhoto} />
         </div>
       </ScrollAnimation>
 

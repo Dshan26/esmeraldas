@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import products from '../data/products.json';
 import ProductGallery from '../components/product/ProductGallery';
 import ProductDetails from '../components/product/ProductDetails';
+import { assetPath } from '../services/assetPath';
 import styles from './ProductDetailPage.module.css';
 
 export default function ProductDetailPage() {
@@ -27,10 +28,12 @@ export default function ProductDetailPage() {
 
   const productName = product.name[i18n.language] || product.name.es;
 
+  const resolvedImages = product.images.map(assetPath);
+
   return (
     <div className={styles.container}>
       <div className={styles.productLayout}>
-        <ProductGallery images={product.images} productName={productName} />
+        <ProductGallery images={resolvedImages} productName={productName} />
         <ProductDetails product={product} />
       </div>
     </div>

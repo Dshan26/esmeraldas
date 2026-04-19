@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import LazyImage from '../ui/LazyImage';
 import { formatPrice } from '../../services/formatPrice';
 import { generateProductWhatsAppUrl } from '../../services/whatsapp';
+import { assetPath } from '../../services/assetPath';
 import styles from './ProductCard.module.css';
 
 /**
@@ -37,7 +38,7 @@ export default function ProductCard({ product }) {
   const productName = product.name[i18n.language] || product.name.es;
   const shortDescription = product.shortDescription[i18n.language] || product.shortDescription.es;
   const formattedPrice = formatPrice(product.priceInCOP);
-  const mainImage = product.images?.[0] || '';
+  const mainImage = product.images?.[0] ? assetPath(product.images[0]) : '';
 
   const whatsappUrl = generateProductWhatsAppUrl(productName, formattedPrice, i18n.language);
 
