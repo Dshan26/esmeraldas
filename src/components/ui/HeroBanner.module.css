@@ -1,0 +1,96 @@
+/* ==========================================================================
+   HeroBanner — Sección hero de la página de inicio
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: var(--space-6) var(--space-2);
+  overflow: hidden;
+
+  /* Dark emerald gradient background */
+  background: linear-gradient(
+    135deg,
+    var(--color-bg-deep) 0%,
+    #0a2e1a 40%,
+    #063d22 70%,
+    var(--color-emerald-dark) 100%
+  );
+
+  /* Add your banner: background-image: url('/images/banners/hero-banner.webp'); */
+  /* When adding a background image, also add: background-size: cover; background-position: center; */
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.title {
+  font-family: var(--font-heading);
+  font-size: var(--text-5xl);
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: var(--space-3);
+  line-height: 1.15;
+}
+
+.subtitle {
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-5);
+  line-height: 1.5;
+}
+
+.cta {
+  display: inline-block;
+  padding: var(--space-2) var(--space-5);
+  background-color: var(--color-gold);
+  color: var(--color-bg-deep);
+  font-family: var(--font-body);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  border-radius: var(--radius-md);
+  transition: background-color var(--transition-base), transform var(--transition-fast);
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: #c9a230;
+  transform: translateY(-2px);
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 50vh;
+    padding: var(--space-5) var(--space-2);
+  }
+
+  .title {
+    font-size: var(--text-3xl);
+  }
+
+  .subtitle {
+    font-size: var(--text-base);
+  }
+
+  .cta {
+    font-size: var(--text-base);
+    padding: var(--space-2) var(--space-4);
+  }
+}

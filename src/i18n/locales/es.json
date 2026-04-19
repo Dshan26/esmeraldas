@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "catalog": "Catálogo",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Esmeraldas Colombianas de Clase Mundial",
+    "subtitle": "Directamente desde las minas de Colombia a sus manos",
+    "cta": "Ver Catálogo"
+  },
+  "product": {
+    "carats": "Quilates",
+    "cut": "Corte",
+    "clarity": "Claridad",
+    "origin": "Origen",
+    "buyWhatsApp": "Comprar por WhatsApp",
+    "notFound": "Producto no encontrado",
+    "backToCatalog": "Volver al catálogo",
+    "priceDisclaimer": "* Los precios pueden variar según la calidad, tamaño y características de cada esmeralda. Contáctenos para una cotización personalizada."
+  },
+  "about": {
+    "title": "Nosotros",
+    "history": "Nuestra historia comienza en las minas de Muzo, Boyacá, donde se extraen las esmeraldas más finas del mundo.",
+    "origin": "Origen de nuestras esmeraldas",
+    "value": "Ofrecemos esmeraldas colombianas certificadas directamente desde la fuente, garantizando autenticidad y los mejores precios para compradores internacionales.",
+    "originText": "Las esmeraldas colombianas provienen de las minas de Muzo, Chivor y Coscuez en el departamento de Boyacá. Estas minas han producido las esmeraldas más finas del mundo durante siglos, reconocidas por su color verde intenso y su excepcional claridad."
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Estamos aquí para ayudarle. Contáctenos por cualquiera de estos medios.",
+    "location": "Colombia",
+    "whatsappChat": "Chatear por WhatsApp",
+    "email": "Correo electrónico"
+  },
+  "footer": {
+    "tagline": "Esmeraldas colombianas de la más alta calidad",
+    "contactTitle": "Contacto",
+    "socialTitle": "Síguenos",
+    "location": "Colombia",
+    "rights": "Todos los derechos reservados"
+  },
+  "catalog": {
+    "title": "Nuestro Catálogo"
+  },
+  "home": {
+    "featured": "Esmeraldas Destacadas"
+  },
+  "common": {
+    "loading": "Cargando..."
+  }
+}

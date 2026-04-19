@@ -1,0 +1,36 @@
+/* ==========================================================================
+   HomePage — Estilos de la página de inicio
+   ========================================================================== */
+
+.featured {
+  padding: var(--space-8) 0;
+}
+
+.featuredTitle {
+  font-family: var(--font-heading);
+  font-size: var(--text-4xl);
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+@media (max-width: 768px) {
+  .featured {
+    padding: var(--space-5) 0;
+  }
+
+  .featuredTitle {
+    font-size: var(--text-2xl);
+    margin-bottom: var(--space-4);
+  }
+}
+
+.priceDisclaimer {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-top: var(--space-4);
+  font-style: italic;
+  opacity: 0.8;
+}

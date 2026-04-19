@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "World-Class Colombian Emeralds",
+    "subtitle": "Directly from the mines of Colombia to your hands",
+    "cta": "View Catalog"
+  },
+  "product": {
+    "carats": "Carats",
+    "cut": "Cut",
+    "clarity": "Clarity",
+    "origin": "Origin",
+    "buyWhatsApp": "Buy via WhatsApp",
+    "notFound": "Product not found",
+    "backToCatalog": "Back to catalog",
+    "priceDisclaimer": "* Prices may vary depending on the quality, size, and characteristics of each emerald. Contact us for a personalized quote."
+  },
+  "about": {
+    "title": "About Us",
+    "history": "Our story begins in the mines of Muzo, Boyacá, where the finest emeralds in the world are extracted.",
+    "origin": "Origin of our emeralds",
+    "value": "We offer certified Colombian emeralds directly from the source, guaranteeing authenticity and the best prices for international buyers.",
+    "originText": "Colombian emeralds come from the Muzo, Chivor, and Coscuez mines in the department of Boyacá. These mines have produced the finest emeralds in the world for centuries, renowned for their intense green color and exceptional clarity."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help. Reach out through any of these channels.",
+    "location": "Colombia",
+    "whatsappChat": "Chat via WhatsApp",
+    "email": "Email"
+  },
+  "footer": {
+    "tagline": "Highest quality Colombian emeralds",
+    "contactTitle": "Contact",
+    "socialTitle": "Follow Us",
+    "location": "Colombia",
+    "rights": "All rights reserved"
+  },
+  "catalog": {
+    "title": "Our Catalog"
+  },
+  "home": {
+    "featured": "Featured Emeralds"
+  },
+  "common": {
+    "loading": "Loading..."
+  }
+}

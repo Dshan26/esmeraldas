@@ -1,0 +1,79 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  width: 100%;
+}
+
+.mainImageWrapper {
+  position: relative;
+  background-color: var(--color-bg-card);
+  border: 1px solid rgba(80, 200, 120, 0.15);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.mainImage {
+  width: 100%;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-sm);
+  width: 40px;
+  height: 40px;
+  font-size: var(--text-2xl);
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color var(--transition-fast);
+  z-index: 1;
+}
+
+.navButton:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.prevButton {
+  left: var(--space-1);
+}
+
+.nextButton {
+  right: var(--space-1);
+}
+
+.thumbnails {
+  display: flex;
+  gap: var(--space-1);
+  overflow-x: auto;
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  width: var(--space-8);
+  height: var(--space-8);
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  cursor: pointer;
+  background: none;
+  opacity: 0.6;
+  transition: opacity var(--transition-fast), border-color var(--transition-fast);
+}
+
+.thumbnail:hover {
+  opacity: 0.85;
+}
+
+.thumbnail.active {
+  opacity: 1;
+  border-color: var(--color-emerald-light);
+}

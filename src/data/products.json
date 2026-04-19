@@ -1,0 +1,171 @@
+[
+  {
+    "id": "esmeralda-muzo-001",
+    "images": ["/images/products/ovalada.jpg", "/images/products/product1.jpeg"],
+    "carats": 2.5,
+    "priceInCOP": 2500000,
+    "cut": "oval",
+    "clarity": "AAA",
+    "origin": "Muzo, Boyacá",
+    "name": {
+      "es": "Esmeralda Muzo Ovalada",
+      "en": "Muzo Oval Emerald"
+    },
+    "shortDescription": {
+      "es": "Esmeralda natural de 2.5 quilates con corte ovalado y claridad excepcional.",
+      "en": "Natural 2.5 carat emerald with oval cut and exceptional clarity."
+    },
+    "fullDescription": {
+      "es": "Esmeralda natural extraída de las minas de Muzo, Boyacá. Esta piedra de 2.5 quilates presenta un corte ovalado impecable con claridad AAA, exhibiendo un verde profundo y vibrante.",
+      "en": "Natural emerald extracted from the Muzo mines in Boyacá. This 2.5 carat stone features a flawless oval cut with AAA clarity, displaying a deep and vibrant green."
+    }
+  },
+  {
+    "id": "esmeralda-chivor-002",
+    "images": ["/images/products/redonda.jpeg", "/images/products/product2.jpeg"],
+    "carats": 1.8,
+    "priceInCOP": 1800000,
+    "cut": "round",
+    "clarity": "AA",
+    "origin": "Chivor, Boyacá",
+    "name": {
+      "es": "Esmeralda Chivor Redonda",
+      "en": "Chivor Round Emerald"
+    },
+    "shortDescription": {
+      "es": "Esmeralda de 1.8 quilates con corte redondo brillante de las minas de Chivor.",
+      "en": "1.8 carat emerald with brilliant round cut from the Chivor mines."
+    },
+    "fullDescription": {
+      "es": "Proveniente de las históricas minas de Chivor en Boyacá, esta esmeralda de 1.8 quilates destaca por su corte redondo brillante y claridad AA.",
+      "en": "From the historic Chivor mines in Boyacá, this 1.8 carat emerald stands out for its brilliant round cut and AA clarity."
+    }
+  },
+  {
+    "id": "esmeralda-muzo-003",
+    "images": ["/images/products/product3.jpeg"],
+    "carats": 3.2,
+    "priceInCOP": 4500000,
+    "cut": "emerald",
+    "clarity": "AAA",
+    "origin": "Muzo, Boyacá",
+    "name": {
+      "es": "Esmeralda Muzo Talla Esmeralda",
+      "en": "Muzo Emerald Cut Emerald"
+    },
+    "shortDescription": {
+      "es": "Magnífica esmeralda de 3.2 quilates con la clásica talla esmeralda y claridad AAA.",
+      "en": "Magnificent 3.2 carat emerald with the classic emerald cut and AAA clarity."
+    },
+    "fullDescription": {
+      "es": "Esta magnífica piedra de 3.2 quilates presenta la clásica talla esmeralda que maximiza el brillo y la profundidad del color verde intenso.",
+      "en": "This magnificent 3.2 carat stone features the classic emerald cut that maximizes brilliance and color depth."
+    }
+  },
+
+  {
+    "id": "esmeralda-coscuez-004",
+    "images": ["/images/products/product4.jpeg"],
+    "carats": 1.2,
+    "priceInCOP": 950000,
+    "cut": "pear",
+    "clarity": "AA",
+    "origin": "Coscuez, Boyacá",
+    "name": {
+      "es": "Esmeralda Coscuez Gota",
+      "en": "Coscuez Pear Emerald"
+    },
+    "shortDescription": {
+      "es": "Delicada esmeralda de 1.2 quilates con elegante corte en forma de gota.",
+      "en": "Delicate 1.2 carat emerald with elegant pear cut."
+    },
+    "fullDescription": {
+      "es": "Esta delicada esmeralda de 1.2 quilates proviene de las minas de Coscuez y presenta un elegante corte en forma de gota, ideal para colgantes.",
+      "en": "This delicate 1.2 carat emerald comes from the Coscuez mines and features an elegant pear cut, ideal for pendants."
+    }
+  },
+  {
+    "id": "esmeralda-chivor-005",
+    "images": ["/images/products/product5.jpeg"],
+    "carats": 2.0,
+    "priceInCOP": 2200000,
+    "cut": "cushion",
+    "clarity": "AAA",
+    "origin": "Chivor, Boyacá",
+    "name": {
+      "es": "Esmeralda Chivor Cojín",
+      "en": "Chivor Cushion Emerald"
+    },
+    "shortDescription": {
+      "es": "Esmeralda de 2.0 quilates con corte cojín y el tono verde azulado de Chivor.",
+      "en": "2.0 carat emerald with cushion cut and the distinctive bluish-green tone of Chivor."
+    },
+    "fullDescription": {
+      "es": "Esta esmeralda de 2.0 quilates con corte cojín proviene de las minas de Chivor, famosas por producir piedras con tonos verde azulados únicos.",
+      "en": "This 2.0 carat cushion-cut emerald comes from the Chivor mines, famous for producing stones with unique bluish-green tones."
+    }
+  },
+  {
+    "id": "esmeralda-coscuez-006",
+    "images": ["/images/products/product6.jpeg"],
+    "carats": 1.5,
+    "priceInCOP": 1350000,
+    "cut": "heart",
+    "clarity": "A",
+    "origin": "Coscuez, Boyacá",
+    "name": {
+      "es": "Esmeralda Coscuez Corazón",
+      "en": "Coscuez Heart Emerald"
+    },
+    "shortDescription": {
+      "es": "Romántica esmeralda de 1.5 quilates con corte corazón, perfecta para regalos.",
+      "en": "Romantic 1.5 carat emerald with heart cut, perfect for special gifts."
+    },
+    "fullDescription": {
+      "es": "Esta romántica esmeralda de 1.5 quilates con corte corazón es una pieza única de las minas de Coscuez, perfecta para ocasiones memorables.",
+      "en": "This romantic 1.5 carat heart-cut emerald is a unique piece from the Coscuez mines, perfect for memorable occasions."
+    }
+  },
+  {
+    "id": "esmeralda-muzo-007",
+    "images": ["/images/products/product7.jpeg"],
+    "carats": 4.0,
+    "priceInCOP": 6800000,
+    "cut": "oval",
+    "clarity": "AAA",
+    "origin": "Muzo, Boyacá",
+    "name": {
+      "es": "Esmeralda Muzo Premium",
+      "en": "Muzo Premium Emerald"
+    },
+    "shortDescription": {
+      "es": "Excepcional esmeralda de 4.0 quilates con claridad AAA, una joya de colección.",
+      "en": "Exceptional 4.0 carat emerald with AAA clarity, a collector's gem."
+    },
+    "fullDescription": {
+      "es": "Una de nuestras piezas más exclusivas. Esta esmeralda de 4.0 quilates de las minas de Muzo presenta una claridad AAA y un verde profundo incomparable.",
+      "en": "One of our most exclusive pieces. This 4.0 carat emerald from the Muzo mines features AAA clarity and an incomparable deep green."
+    }
+  },
+  {
+    "id": "esmeralda-chivor-008",
+    "images": ["/images/products/product8.jpeg"],
+    "carats": 1.0,
+    "priceInCOP": 750000,
+    "cut": "round",
+    "clarity": "A",
+    "origin": "Chivor, Boyacá",
+    "name": {
+      "es": "Esmeralda Chivor Clásica",
+      "en": "Chivor Classic Emerald"
+    },
+    "shortDescription": {
+      "es": "Esmeralda de 1.0 quilate con corte redondo, ideal para iniciarse en el mundo de las gemas.",
+      "en": "1.0 carat emerald with round cut, ideal for starting your gem collection."
+    },
+    "fullDescription": {
+      "es": "Esta esmeralda de 1.0 quilate de las minas de Chivor es perfecta para quienes buscan su primera esmeralda colombiana auténtica a un precio accesible.",
+      "en": "This 1.0 carat emerald from the Chivor mines is perfect for those looking for their first authentic Colombian emerald at an accessible price."
+    }
+  }
+]

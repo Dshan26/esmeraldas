@@ -1,0 +1,30 @@
+/* ==========================================================================
+   ScrollAnimation — Animaciones de entrada al hacer scroll
+   ========================================================================== */
+
+.wrapper {
+  opacity: 0;
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  will-change: opacity, transform;
+}
+
+/* ---- Estado inicial por tipo de animación ---- */
+
+.fadeIn {
+  /* solo opacity, ya definido en .wrapper */
+}
+
+.slideUp {
+  transform: translateY(var(--space-5));
+}
+
+.slideLeft {
+  transform: translateX(calc(-1 * var(--space-5)));
+}
+
+/* ---- Estado visible (animación completada) ---- */
+
+.visible {
+  opacity: 1;
+  transform: none;
+}
